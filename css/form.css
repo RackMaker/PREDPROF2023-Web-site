@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+html {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    color: #000;
+    height: 100vh;
+    background: linear-gradient(#FFA07A, #E0FFFF) no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    background: linear-gradient(30deg, rgba(209, 17, 216, 0.7), rgba(12, 26, 221, 0.7));
+    width: 500px;
+    height: 600px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+}
+
+p {
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form {
+    width: 220px;
+    height: 45px;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#send-btn {
+    background: linear-gradient(30deg, #0b7474, #af9f0d);
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(6, 28, 99, 0.726);
+    font-family: 'Roboto', sans-serif;
+
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/media.css">
+    <link rel="stylesheet" type="text/css" href="../css/slyder.css">
+    <script type="text/javascript" src="/eel.js"></script>
+    <title>Каток ВДНХ</title>
+</head>
+
+<body>
+    <header>
+        <div class="buttons">
+            <div class="main-buttons">
+                <a href="../index.html"><button class="main-button">Вернуться</button></a>
+            </div>
+            <div class="dropdown">
+                  <button class="dropbtn">ТОП-5 МЕСТ ДЛЯ ПОСЕЩЕНИЯ</button>
+                  <div class="dropdown-content">
+                    <a href="kos.html" class="l-1"><img src="../img/kos.jpg" width="200px" height="130px"><br> 1. Музей Космонавтики</a>
+                    <a href="mos.html" class="l-1"><img src="../img/mos.jpg" width="200px" height="130px"><br>2. Москвариум</a>
+                    <a href="font.html" class="l-1"><img src="../img/font.jpeg" width="200px" height="130px"><br>3. Фонтан "Каменный цветок"</a>
+                    <a href="kat.html" class="l-1"><img src="../img/kat.jpg" width="200px" height="130px"><br>4. Каток ВДНХ</a>
+                    <a href="rab.html" class="l-1"><img src="../img/rab.jpg" width="200px" height="130px"><br>5. Скульптура "Рабочий и колхозница"</a>
+    
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="inf">
+        <h1 align="center">Каток ВДНХ</h1>
+    </div>
+
+    <p class="inf-3">
+        Уникальность катка — расположение в окружении исторических павильонов, многочисленных музеев и других объектов Выставки. Общая площадь катка с инфраструктурой — 53 тысячи кв. метров, площадь искусственного ледового покрытия — 20,5 тысячи кв. метров. В зависимости от погодных условий толщина льда за сезон может достигать от 100 до 200 миллиметров, а вес всей ледовой площадки — доходить до 3600 тонн.
+    </p>
+
+    <!-- slyder --->
+    <div class="adaptivSlayder">
+        <input type="radio" name="kadoves" id="slaid1" checked>
+        <input type="radio" name="kadoves" id="slaid2">
+        <input type="radio" name="kadoves" id="slaid3">
+        <input type="radio" name="kadoves" id="slaid4">
+        <input type="radio" name="kadoves" id="slaid5">
+        <div class="kadoves">
+            <label for="slaid1"></label>
+            <label for="slaid2"></label>
+            <label for="slaid3"></label>
+            <label for="slaid4"></label>
+            <label for="slaid5"></label>
+        </div>
+        <div class="adaptivSlayderlasekun">
+            <div class="abusteku-deagulus">
+                <img src="../img/kat/1.jpg" alt="">
+                <img src="../img/kat/2.jpg" alt="">
+                <img src="../img/kat/3.jpg" alt="">
+                <img src="../img/kat/4.jpg" alt="">
+                <img src="../img/kat/5.jpg" alt="">
+
+            </div>
+        </div>
+      </div>
+  <!-- slyder --->
+
+    <div id="map" class="k-1"></div>
+
+    <footer class="footer">
+		<div class="contacts">
+			<p>Контакты для связи с технической поддержкой</p>
+		</div>
+        <div class="icons">
+            <a class="tg" onClick="window.open('https://web.telegram.org/z/#5193259372');">
+                <img src="img/tg.png" width="90px" height="50px">
+            </a>
+            <a class="ds" onClick="window.open('https://discord.gg/nzsEY6CX');">
+                <img src="img/ds.png" width="90px" height="50px">
+        </div>
+	</footer>
+
+
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=20f698cf-8f71-441d-a0a4-93bbb0e9eb7b"
+		type="text/javascript"></script>
+
+    <script src="../scripts/kat.js"></script>
+    
+</body>
+
+</html>

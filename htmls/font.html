@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/slyder.css">
+    <link rel="stylesheet" type="text/css" href="../css/media.css">
+    <script type="text/javascript" src="/eel.js"></script>
+    <title>Фонтан "Каменный цветок"</title>
+</head>
+
+<body>
+    <header>
+        <div class="buttons">
+            <div class="main-buttons">
+                <a href="../index.html"><button class="main-button">Вернуться</button></a>
+            </div>
+            <div class="dropdown">
+                  <button class="dropbtn">ТОП-5 МЕСТ ДЛЯ ПОСЕЩЕНИЯ</button>
+                  <div class="dropdown-content">
+                    <a href="kos.html" class="l-1"><img src="../img/kos.jpg" width="200px" height="130px"><br> 1. Музей Космонавтики</a>
+                    <a href="mos.html" class="l-1"><img src="../img/mos.jpg" width="200px" height="130px"><br>2. Москвариум</a>
+                    <a href="font.html" class="l-1"><img src="../img/font.jpeg" width="200px" height="130px"><br>3. Фонтан "Каменный цветок"</a>
+                    <a href="kat.html" class="l-1"><img src="../img/kat.jpg" width="200px" height="130px"><br>4. Каток ВДНХ</a>
+                    <a href="rab.html" class="l-1"><img src="../img/rab.jpg" width="200px" height="130px"><br>5. Скульптура "Рабочий и колхозница"</a>
+    
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="inf">
+        <h1 align="center">Фонтан "Каменный цветок"</h1>
+    </div>
+
+    <p class="inf-3">
+        Фонтан «Каменный цветок» — один из трёх главных фонтанов ВДНХ. Создан к открытию ВДНХ в 1954 году по проекту архитектора Константина Топуридзе и скульптора Прокопия Добрынина. Расположен на Центральной аллее, на площади колхозов. Центральная композиция — огромный цветок, набранный из больших бетонных плит, облицованных многоцветной смальтой. Мозаичные работы выполнены в мастерской Академии художеств СССР. Двухъярусное основание облицовано мелким красным гранитом. И некоторым исследователям своей ступенчатой композицией «Каменный цветок» напоминает созданный в 1670 году фонтан «Латона» в Версале.
+    </p>
+
+    <!-- slyder --->
+    <div class="adaptivSlayder">
+        <input type="radio" name="kadoves" id="slaid1" checked>
+        <input type="radio" name="kadoves" id="slaid2">
+        <input type="radio" name="kadoves" id="slaid3">
+        <div class="kadoves">
+            <label for="slaid1"></label>
+            <label for="slaid2"></label>
+            <label for="slaid3"></label>
+        </div>
+        <div class="adaptivSlayderlasekun">
+            <div class="abusteku-deagulus">
+                <img src="../img/font/1.png" alt="">
+                <img src="../img/font/2.png" alt="">
+                <img src="../img/font/3.png" alt="">
+            </div>
+        </div>
+      </div>
+  <!-- slyder --->
+
+    <div id="map" class="k-1"></div>
+
+    <footer class="footer">
+		<div class="contacts">
+			<p>Контакты для связи с технической поддержкой</p>
+		</div>
+        <div class="icons">
+            <a class="tg" onClick="window.open('https://web.telegram.org/z/#5193259372');">
+                <img src="../img/tg.png" width="90px" height="50px">
+            </a>
+            <a class="ds" onClick="window.open('https://discord.gg/nzsEY6CX');">
+                <img src="../img/ds.png" width="90px" height="50px">
+        </div>
+	</footer>
+
+
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=20f698cf-8f71-441d-a0a4-93bbb0e9eb7b"
+		type="text/javascript"></script>
+
+    <script src="../scripts/font.js"></script>
+    
+</body>
+
+</html>
